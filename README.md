@@ -56,26 +56,26 @@ Each model was evaluated using the following performance metrics:
 ---
 
 ### **4. Feature Importance Analysis**  
-🔍 Identified **key features** affecting car prices using:  
- **Statistical methods** (correlation analysis).  
- **Model-based techniques** (feature importance scores from tree-based models).  
- **Recursive Feature Elimination (RFE)** for feature selection.  
+ Identified **key features** affecting car prices using:  
+ - **Statistical methods** (correlation analysis).  
+ - **Model-based techniques** (feature importance scores from tree-based models).  
+ - **Recursive Feature Elimination (RFE)** for feature selection.  
 
 ---
 
 ### **5. Hyperparameter Tuning**  
  To improve model performance, we applied:  
- **Grid Search** – Systematic search over specified parameter values.  
- **Randomized Search** – Random combinations of hyperparameters for faster tuning.  
- **Cross-Validation** – Ensuring the model generalizes well to unseen data.  
+ - **Grid Search** – Systematic search over specified parameter values.  
+ - **Randomized Search** – Random combinations of hyperparameters for faster tuning.  
+ - **Cross-Validation** – Ensuring the model generalizes well to unseen data.  
 
 ---
 
 ##  Results & Insights  
- **Best Performing Model:** `Random Forest Regressor` with an **R² Score of `0.936125`**.  
- **Key Features Impacting Price:** `['wheelbase', 'carlength', 'carwidth', 'carheight', 'curbweight',
+ - **Best Performing Model:** `Random Forest Regressor` with an **R² Score of `0.936125`**.  
+ - **Key Features Impacting Price:** `['wheelbase', 'carlength', 'carwidth', 'carheight', 'curbweight',
        'enginesize', 'boreratio', 'horsepower', 'citympg', 'highwaympg']`.  
- **Business Recommendations:** The insights from this analysis can help the company **optimize its pricing strategy** and **compete effectively** in the US market.  
+ - **Business Recommendations:** The insights from this analysis can help the company **optimize its pricing strategy** and **compete effectively** in the US market.  
 
 ---
 
