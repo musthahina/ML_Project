@@ -49,9 +49,9 @@ We implemented **five regression models** to predict car prices:
 ### **3. Model Evaluation**  
 Each model was evaluated using the following performance metrics:  
 
- **R-Squared Score (R²)** – Measures how well the model explains the variability in car prices.  
- **Mean Squared Error (MSE)** – Measures average squared error between actual and predicted prices.  
- **Mean Absolute Error (MAE)** – Measures the average absolute difference between actual and predicted prices.  
+ - **R-Squared Score (R²)** – Measures how well the model explains the variability in car prices.  
+ - **Mean Squared Error (MSE)** – Measures average squared error between actual and predicted prices.  
+ - **Mean Absolute Error (MAE)** – Measures the average absolute difference between actual and predicted prices.  
 
 ---
 
