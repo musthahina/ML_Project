@@ -23,47 +23,47 @@ By analyzing a dataset of cars sold in the US, we aim to:
 ##  Dataset  
 The dataset used in this project is sourced from **market surveys** and contains multiple attributes of cars sold in the **US market**.  
 
-## 🛠 Project Workflow  
+##  Project Workflow  
 
-### **1 Data Loading & Preprocessing**  
-✔ Load the dataset into a Pandas DataFrame.  
-✔ Handle **missing values** and remove **duplicates**.  
-✔ Perform **exploratory data analysis (EDA)**.  
-✔ Encode **categorical variables** (e.g., One-Hot Encoding, Label Encoding).  
-✔ Normalize/scale **numerical features** for consistency.  
-✔ Remove **outliers** to improve model performance.  
+### **1. Data Loading & Preprocessing**  
+- Load the dataset into a Pandas DataFrame.  
+- Handle **missing values** and remove **duplicates**.  
+- Perform **exploratory data analysis (EDA)**.  
+- Encode **categorical variables** (e.g., One-Hot Encoding, Label Encoding).  
+- Normalize/scale **numerical features** for consistency.  
+- Remove **outliers** to improve model performance.  
 
 ---
 
-### **2 Model Implementation**  
+### **2. Model Implementation**  
 We implemented **five regression models** to predict car prices:  
 
-1. 🔹 **Linear Regression**  
-2. 🔹 **Decision Tree Regressor**  
-3. 🔹 **Random Forest Regressor**  
-4. 🔹 **Gradient Boosting Regressor**  
-5. 🔹 **Support Vector Regressor (SVR)**  
+1.  **Linear Regression**  
+2.  **Decision Tree Regressor**  
+3.  **Random Forest Regressor**  
+4.  **Gradient Boosting Regressor**  
+5.  **Support Vector Regressor (SVR)**  
 
 ---
 
-### **3️⃣ Model Evaluation**  
+### **3. Model Evaluation**  
 Each model was evaluated using the following performance metrics:  
 
-📊 **R-Squared Score (R²)** – Measures how well the model explains the variability in car prices.  
-📊 **Mean Squared Error (MSE)** – Measures average squared error between actual and predicted prices.  
-📊 **Mean Absolute Error (MAE)** – Measures the average absolute difference between actual and predicted prices.  
+ **R-Squared Score (R²)** – Measures how well the model explains the variability in car prices.  
+ **Mean Squared Error (MSE)** – Measures average squared error between actual and predicted prices.  
+ **Mean Absolute Error (MAE)** – Measures the average absolute difference between actual and predicted prices.  
 
 ---
 
-### **4️⃣ Feature Importance Analysis**  
+### **4. Feature Importance Analysis**  
 🔍 Identified **key features** affecting car prices using:  
-✔ **Statistical methods** (correlation analysis).  
-✔ **Model-based techniques** (feature importance scores from tree-based models).  
-✔ **Recursive Feature Elimination (RFE)** for feature selection.  
+ **Statistical methods** (correlation analysis).  
+ **Model-based techniques** (feature importance scores from tree-based models).  
+ **Recursive Feature Elimination (RFE)** for feature selection.  
 
 ---
 
-### **5️⃣ Hyperparameter Tuning**  
+### **5. Hyperparameter Tuning**  
  To improve model performance, we applied:  
  **Grid Search** – Systematic search over specified parameter values.  
  **Randomized Search** – Random combinations of hyperparameters for faster tuning.  
