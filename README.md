@@ -1,18 +1,18 @@
-# 🚗 Car Price Prediction  
+# Car Price Prediction  
 
-## 📌 Project Overview  
+##  Project Overview  
 This project aims to develop a **predictive model for car prices** using various machine learning algorithms. A Chinese automobile company is expanding into the **US market** and wants to understand the key factors that influence car prices.  
 
 By analyzing a dataset of cars sold in the US, we aim to:  
 
-- ✅ Identify **significant variables** affecting car prices.  
-- ✅ Develop **machine learning models** for price prediction.  
-- ✅ Compare different models based on performance metrics.  
-- ✅ Provide **business insights** to help the company **strategize its market entry**.  
+-  Identify **significant variables** affecting car prices.  
+-  Develop **machine learning models** for price prediction.  
+-  Compare different models based on performance metrics.  
+-  Provide **business insights** to help the company **strategize its market entry**.  
 
 ---
 
-## 🎯 Business Objective  
+##  Business Objective  
 - **Understand** the pricing dynamics in the US automobile market.  
 - **Develop** machine learning models to predict car prices accurately.  
 - **Analyze** feature importance to identify key attributes affecting pricing.  
@@ -20,12 +20,12 @@ By analyzing a dataset of cars sold in the US, we aim to:
 
 ---
 
-## 📂 Dataset  
+##  Dataset  
 The dataset used in this project is sourced from **market surveys** and contains multiple attributes of cars sold in the **US market**.  
 
-## 🛠️ Project Workflow  
+## 🛠 Project Workflow  
 
-### **1️⃣ Data Loading & Preprocessing**  
+### **1 Data Loading & Preprocessing**  
 ✔ Load the dataset into a Pandas DataFrame.  
 ✔ Handle **missing values** and remove **duplicates**.  
 ✔ Perform **exploratory data analysis (EDA)**.  
@@ -35,7 +35,7 @@ The dataset used in this project is sourced from **market surveys** and contains
 
 ---
 
-### **2️⃣ Model Implementation**  
+### **2 Model Implementation**  
 We implemented **five regression models** to predict car prices:  
 
 1. 🔹 **Linear Regression**  
@@ -64,18 +64,18 @@ Each model was evaluated using the following performance metrics:
 ---
 
 ### **5️⃣ Hyperparameter Tuning**  
-🎯 To improve model performance, we applied:  
-🔹 **Grid Search** – Systematic search over specified parameter values.  
-🔹 **Randomized Search** – Random combinations of hyperparameters for faster tuning.  
-🔹 **Cross-Validation** – Ensuring the model generalizes well to unseen data.  
+ To improve model performance, we applied:  
+ **Grid Search** – Systematic search over specified parameter values.  
+ **Randomized Search** – Random combinations of hyperparameters for faster tuning.  
+ **Cross-Validation** – Ensuring the model generalizes well to unseen data.  
 
 ---
 
-## 📊 Results & Insights  
-🚀 **Best Performing Model:** `Random Forest Regressor` with an **R² Score of `0.936125`**.  
-📌 **Key Features Impacting Price:** `['wheelbase', 'carlength', 'carwidth', 'carheight', 'curbweight',
+##  Results & Insights  
+ **Best Performing Model:** `Random Forest Regressor` with an **R² Score of `0.936125`**.  
+ **Key Features Impacting Price:** `['wheelbase', 'carlength', 'carwidth', 'carheight', 'curbweight',
        'enginesize', 'boreratio', 'horsepower', 'citympg', 'highwaympg']`.  
-🔍 **Business Recommendations:** The insights from this analysis can help the company **optimize its pricing strategy** and **compete effectively** in the US market.  
+ **Business Recommendations:** The insights from this analysis can help the company **optimize its pricing strategy** and **compete effectively** in the US market.  
 
 ---
 
