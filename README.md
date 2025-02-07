@@ -69,8 +69,6 @@ Each model was evaluated using the following performance metrics:
 🔹 **Randomized Search** – Random combinations of hyperparameters for faster tuning.  
 🔹 **Cross-Validation** – Ensuring the model generalizes well to unseen data.  
 
-📈 **Optimized model accuracy** using fine-tuned hyperparameters.  
-
 ---
 
 ## 📊 Results & Insights  
